@@ -1,6 +1,14 @@
 .botDefinition {
     background-color: beige;
-    width: 200px;
+    width: 65%;
+}
+
+.botDefinition :first-child {
+    margin: 20px; 
+}
+
+.botDefinition p {
+    margin: 20px;
 }
 
 .pageWrapper {
@@ -20,15 +28,51 @@ li {
 }
 
 .navbar {
-    width: 100%;
     height: 150px;
     background: aqua;
     display: flex;
+    justify-content: center;
     flex-direction: row;
+    align-items: center;
 }
 
 .icon {
     width: 150px;
     height: 150px;
     background-color: blue;
+    margin-right: 70%;
+}
+
+nav ul li {
+    padding: 15%;
+    background-color: blueviolet;    
+    font-size: 1.5rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+.pageWrapper {
+    width: 60%;
+}
+
+.sidewrapper {
+    width: 40%;
+}
+
+.sidebar {
+    display: flex;
+    margin: 3%;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 15%;
+   
 }
