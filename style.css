@@ -58,6 +58,11 @@ nav ul li a {
 main {
     display: flex;
     flex-direction: row;
+    width:100%;
+}
+
+* {
+    box-sizing:border-box;
 }
 
 .pageWrapper {
@@ -69,15 +74,20 @@ main {
 
 .sidewrapper {
     width: 40%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
 }
 
 .sidebar {
     display: flex;
-    margin: 3%;
+    /* margin: 3%; */
     flex-direction: column;
-    width: 50%;
-    margin-left: 15%;
-   
+    width: 75%;
+    /* margin-left: 15%; */
+    background-color:red;
+    justify-content: center;
+    align-items: center;
 }
 .graph{
     display: flex;
@@ -100,3 +110,40 @@ width: 60%;
 
 }
 
+.threat {
+    margin-top:5%;
+    margin-bottom: 5%;
+    margin-left: 15%;
+    font-size: large;
+    width: 80%;
+}
+.bottom-sidebar {
+    margin-top:30px;
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    background-color:blue;
+}
+
+.sidebar img {
+    width:90%;
+    height:auto;
+}
+
+.button-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
+
+.button-one a {
+    background-color: red;
+    padding:10px;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+h2 {
+    margin-bottom:20px;
+}
