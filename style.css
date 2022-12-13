@@ -44,10 +44,12 @@ li {
 
 h2 {
     margin-bottom:20px;
+    font-size: max(1.3vw, 16px);
 }
 
 p {
     line-height: 200%;
+    font-size: max(1vw, 10px)
 }
 
 .navbar {
@@ -77,9 +79,14 @@ p {
 }
     
 .icon {
-    width: 100px;
+    width: 7.5%;
     height: 100%;
     margin-left: 5%;
+}
+
+.icon img {
+    height: 100%;
+    width: 100%;
 }
 
 .nav-buttons a {
@@ -144,7 +151,6 @@ p {
     margin-top: 2%;
 }
 .graph p{
-    font-size: 1vw;
     margin-right: 5%;
 }
 .graph img{
@@ -166,7 +172,7 @@ box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     flex-direction: column;
     overflow: scroll;
     overflow-x: hidden;
-    width: 45%;
+    width: 50%;
     margin-left: 7%; 
     background-color:#4968A6;
     justify-content: flex-start;
@@ -278,7 +284,7 @@ footer {
     flex-direction: row;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
-    line-height: 200%;
+    line-height: max(200%, 0px);
     font-size: 0.9vw;
 }
 
