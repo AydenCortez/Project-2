@@ -286,11 +286,7 @@ footer {
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
     line-height: max(200%, 0px);
-<<<<<<< HEAD
-    font-size: max(0.9vw, 8px);
-=======
-    font-size: max(0.9vw, 12px);
->>>>>>> 2781a7f79bacbcf937ade7108beb950b1b178ef9
+    font-size: max(0.9vw, 5px);
 }
 
 footer div {
