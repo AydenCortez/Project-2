@@ -97,12 +97,12 @@ p {
 .next-page {
     padding: 15%;
     background-color: #63BBF2;    
-    font-size: 1.2vw;
+    font-size: max(1.2vw, 16px);
     border-radius: 5px;
     list-style: none;
     color: white;
     position: relative;
-    right: 150%;
+    right: min(150%, 20px);
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
@@ -172,7 +172,7 @@ box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     flex-direction: column;
     overflow: scroll;
     overflow-x: hidden;
-    width: 50%;
+    width: 65%;
     margin-left: 7%; 
     background-color:#4968A6;
     justify-content: flex-start;
@@ -238,7 +238,7 @@ box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     border-radius: 5px;
     padding:2%;
     text-decoration: none;
-    font-size: 1.2vw;
+    font-size: max(1.2vw, 16px);
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
