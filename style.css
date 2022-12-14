@@ -132,14 +132,6 @@ p {
     
 }
 
-
-.graph{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 80%;
-    margin-left: 15%;
-}
 .botDefinition{
     margin-bottom: 5%;
     margin-left: 15%;
@@ -150,8 +142,18 @@ p {
 .botDefinition h2 {
     margin-top: 2%;
 }
+
+.graph{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+    margin-left: 15%;
+}
+
 .graph p{
     margin-right: 5%;
+    width: 40%;
 }
 .graph img{
 width: 60%;
@@ -181,7 +183,7 @@ box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     margin-top: 20%;
     color: white;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-    height: 50vh;
+    height: max(50vh, 100px);
     font-size: 0.8vw;
     margin-right: 15%;
 }
@@ -203,12 +205,17 @@ box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     line-height: 100%;
 }
 
+.sidebar h2 {
+    font-size: max(1.4vw, 12px);
+}
+
 .sidebar a {
     color: white;
 }
 
 .sidebar [class^="source"] {
     margin-top: 10%;
+    font-size: max(1vw, 7px)
 }
 
 .bottom-sidebar {
@@ -279,6 +286,7 @@ box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 
 footer {
     width: 100%;
+    padding-top: 2vh;
     height: auto;
     background-color: #bfbfbfaa;
     display: flex;
